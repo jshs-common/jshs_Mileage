@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
+#video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+}
+p{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 20px;
+  }
+span{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 30px;
+}
+ck{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 80px;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+}
+tk{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 10px;
+}
+in{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 20px;
+}
+a{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 25px;
+}
+infor{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 50px;
+}
+inforr{
+  font-family: 'Song Myung', serif;
+  color: #E6DEDE;
+  font-size: 30px;
+}
+th {
+  font-family: 'Song Myung', serif;
+  color: black;
+  font-size: 21px;
+  }
+td{
+  font-family: 'Song Myung', serif;
+  color: black;
+  font-size: 21px;
+}

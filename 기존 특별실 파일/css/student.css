@@ -1,0 +1,50 @@
+.main-form {
+    margin-top: 20px;
+    padding: 30px 30px 24px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 4px 20px;
+}
+    .checking{
+      font-size: 30px;
+      font-family: 'BM DoHyeon';
+      text-align: center;
+      color: #4583FE;
+    }
+    .form-title {
+        font-size: 60px;
+        font-family: 'BM DoHyeon';
+        text-align: center;
+        color: #4583FE;
+    }
+
+    .form-ol {
+        font-size: 26px;
+        font-weight: bold;
+        margin-right: 40px;
+    }
+
+        .li-inside {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+            #st-button:focus, #sm-button:focus, #et-button:focus, #em-button:focus{
+                outline: none !important;
+            }
+
+    .submit-button {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .submit-button button {
+            font-size: 18px;
+            margin-top: 10px;
+            width: 150px;
+        }
+th{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.login-card {
+    margin-top: 30px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 4px 20px;
+}
+    .login-card .list-group {
+        margin: 0px 40px 0px 40px;
+    }
+
+.logo-capsule {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    font-family: 'BM DoHyeon';
+    font-size: 80px;
+    color: #4583FE;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .submit-button .btn {
+        font-size: 18px;    
+        width: 150px;
+    }
