@@ -1,0 +1,101 @@
+.card {
+    margin-top: 30px;
+    padding: 40px 40px 30px 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 4px 20px;
+}
+
+    .logo-capsule {
+        text-align: center;
+        position: relative;
+        /*margin-bottom: 40px;*/
+
+        font-family: 'BM DoHyeon';
+        font-size: 82px;
+        color: #4583FE;
+    }
+
+    .panel {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+        .panel .panel-heading {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .panel .panel-body {
+            padding-bottom: 10px;
+        }
+        
+            .panel .panel-body ul {
+                list-style-type: none;
+                /*padding-top: 15px;*/
+                padding-left: 0px;
+            }
+
+                .panel .panel-body li {
+                    margin-bottom: 8px;
+                }
+
+        .panel .panel-btn-group {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+            padding: 0px 14px 0px 0px;
+        }
+
+            .panel .panel-btn-group .btn {
+                margin-left: 8px;
+                font-size: 18px;
+            }
+
+    .alert {
+        font-size: 18px;
+        text-align: center;
+    }
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+  }
+
+  .material-switch > label {
+      cursor: pointer;
+      height: 0px;
+      position: relative; 
+      width: 40px;  
+  }
+
+  .material-switch > label::before {
+      background: rgb(0, 0, 0);
+      box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      content: '';
+      height: 16px;
+      margin-top: -8px;
+      position:absolute;
+      opacity: 0.3;
+      transition: all 0.4s ease-in-out;
+      width: 40px;
+  }
+  .material-switch > label::after {
+      background: rgb(255, 255, 255);
+      border-radius: 16px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      content: '';
+      height: 24px;
+      left: -4px;
+      margin-top: -8px;
+      position: absolute;
+      top: -4px;
+      transition: all 0.3s ease-in-out;
+      width: 24px;
+  }
+  .material-switch > input[type="checkbox"]:checked + label::before {
+      background: inherit;
+        opacity: 0.5;
+  }
+  .material-switch > input[type="checkbox"]:checked + label::after {
+      background: inherit;
+      left: 20px;
+  }

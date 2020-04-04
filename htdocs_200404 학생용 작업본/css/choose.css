@@ -1,0 +1,99 @@
+#mileage{
+    font-family: 'BM DoHyeon';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF8224;
+    height: 70vh;
+    padding-top: 1%;
+    font-size: 3em;
+    -moz-transition:color .30s ease;   
+    -o-transition:color .30s ease;   
+    -ms-transition:color .30s ease;   
+    -webkit-transition:color .30s ease;   
+    transition:color .30s ease; 
+    line-height:1.2em
+}
+
+#mileage:hover{
+    color: #EAEAEA;
+    transform:scale(1.02);             /*  default */
+    -webkit-transform:scale(1.02);  /*  크롬 */
+    -moz-transform:scale(1.02);     /* FireFox */
+    -o-transform:scale(1.02);        /* Opera */
+}
+
+#room{
+    font-family: 'BM DoHyeon';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #6799FF;
+    height: 70vh;
+    padding-top: 1%;
+    font-size: 5em;
+    -moz-transition:color .30s ease;   
+    -o-transition:color .30s ease;   
+    -ms-transition:color .30s ease;   
+    -webkit-transition:color .30s ease;   
+    transition:color .30s ease;
+    line-height:1.2em 
+}
+
+#room:hover{
+    color: #EAEAEA;
+    transform:scale(1.02);             /*  default */
+    -webkit-transform:scale(1.02);  /*  크롬 */
+    -moz-transform:scale(1.02);     /* FireFox */
+    -o-transform:scale(1.02);        /* Opera */
+}
+
+#laptop{
+    font-family: 'BM DoHyeon';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #47C83E;
+    height: 70vh;
+    padding-top: 1%;
+    font-size: 3em;
+    -moz-transition:color .30s ease;   
+    -o-transition:color .30s ease;   
+    -ms-transition:color .30s ease;   
+    -webkit-transition:color .30s ease;   
+    transition:color .30s ease; 
+    line-height:1.2em
+}
+
+#laptop:hover{
+    color: #EAEAEA;
+    transform:scale(1.02);             /*  default */
+    -webkit-transform:scale(1.02);  /*  크롬 */
+    -moz-transform:scale(1.02);     /* FireFox */
+    -o-transform:scale(1.02);        /* Opera */
+}
+
+@media (max-width: 768px){
+    #room{
+        font-size: 3em;
+        text-align: center;
+        height: 40vh;
+    }
+    #laptop, #mileage{
+        font-size: 2em;
+        height: 40vh;
+    }
+    #laptop{
+        text-align: right;
+    }
+    h1{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 576px){
+    #room{
+        font-size: 2em;
+        text-align: center;
+    }
+    #laptop, #mileage{
+        font-size: 1.5em;
+    }
+    #laptop{
+        text-align: right;
+    }
+}
