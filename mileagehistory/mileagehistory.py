@@ -72,7 +72,7 @@ conn.close()
 print("""
 이 엑셀은 무료로 해줍니다 10KB이내에 있는 엑셀파일 무료로 받기
 <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-<div class="btn btn-success" onclick="location.href='checklist2.xlsx';">
+<div class="btn btn-success" onclick="location.href='mileagehistory2.xlsx';">
     <span class="glyphicon glyphicon-download-alt" style="margin-right: 5px;"></span>
     무료 다운로드
 </div>
