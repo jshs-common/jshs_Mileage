@@ -58,7 +58,7 @@ for row in rows:
 
     data=[count,chackdate,number[0],number[1],number[2:],name,point[0],miltype,sayou,point[1],teachername]
     for i in range(len(data)):
-        ws[str(chr(65+i))+"{}".format(row[0]-98)] = data[i]
+        ws[str(chr(65+i))+"{}".format(count+1)] = data[i]
     count+=1
 
 print("")
