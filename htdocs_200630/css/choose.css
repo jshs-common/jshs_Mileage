@@ -1,0 +1,86 @@
+#box1{
+    text-align:center; 
+    color:white;
+    background-color:#EAEAEA;
+    border: 5px solid white;
+    padding-top:4%;
+    padding-bottom:3%;
+    background: url("../img/특별실 신청.png") center no-repeat;
+    min-height: 0%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#box1:hover{
+    opacity: 60%;
+    transition: opacity 0.5s;  
+    -o-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+#box2{
+    text-align:center; 
+    background-color:#EAEAEA;
+    border: 5px solid white;
+    padding-top:4%;
+    padding-bottom:3%;
+    min-height: 120%;
+    background-position: center;
+    background-size: cover;
+    color:white;
+
+}
+#box2:hover{
+    opacity: 70%;
+    transition: opacity 0.5s;  
+    -o-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+#box3{
+    text-align:center; 
+    background-color:#EAEAEA;
+    border: 5px solid white;
+    padding-top:4%;
+    padding-bottom:3%;
+    background: url("../img/laptopback.png") center no-repeat;
+    min-height: 120%;
+    background-position: center;
+    background-size: cover;
+    color:white;
+
+}
+        
+#box3:hover{
+    opacity: 70%;
+    transition: opacity 0.5s;  
+    -o-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+#title{
+    margin-bottom:2%;
+    font-family: 'BM DoHyeon';
+    z-index : 10;
+}
+#description{
+    margin-top:1%;
+    margin-bottom:1%;
+    font-weight: 750;
+}
+
+@media (max-width: 576px){
+    #bigtitle{
+    font-size:2em;
+    margin-top:5% !important;
+    }
+
+    #box{
+    padding-top:10%;
+    min-height:65vh;
+    }
+}
