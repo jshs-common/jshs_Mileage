@@ -1,0 +1,14 @@
+update db set ok=0;
+update db set attendance=0;
+update db set attendance=1;
+set character set euckr;
+update db set attendance=;
+update db set space='교무실' where number<100;
+update db set start=0;
+update db set finish=0;
+update db set okteacher='면학실';
+update db set ok=0;
+update db set purpose='면학' where number>100;
+update db set purpose='승인' where number<100;
+update db set teachercheck=0;
+update db set space='면학실' where number>100;

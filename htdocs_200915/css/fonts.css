@@ -1,0 +1,11 @@
+﻿@font-face {
+    font-family: "BM Dohyeon";
+    /*src: url(../fonts/BMDOHYEON.TTF) format('truetype');*/
+    src: url(../fonts/BMDOHYEON.woff) format('woff');
+}
+
+@font-face {
+    font-family: "NanumSquareR";
+    /*src: url(../fonts/NANUMSQUARER.TTF) format('truetype');*/
+    src: url(../fonts/NanumSquareR.woff) format('woff');
+}

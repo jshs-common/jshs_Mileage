@@ -1,0 +1,6 @@
+{
+    "name": "afcoo0215/menkaksitsu",
+    "require": {
+        "minishlink/web-push": "^5.2"
+    }
+}

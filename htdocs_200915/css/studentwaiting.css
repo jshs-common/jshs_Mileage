@@ -1,0 +1,58 @@
+.card {
+    margin-top: 30px;
+    padding: 45px 30px 30px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 4px 20px;
+}
+
+    .logo-capsule {
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+
+        font-family: 'BM DoHyeon';
+        font-size: 80px;
+        color: #4583FE;
+    }
+
+    .application {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        padding-right: 40px;
+        list-style: none;
+        font-size: 18px;
+    }
+
+    .status-images {
+        display: flex;
+        /*align-items: space-between;*/
+        justify-content: space-between;
+        margin: 0px 60px 15px 60px;
+    }
+        .status-images img {
+            width: 80px;
+        }
+
+        .status-images .img-caption {
+            margin-top: 10px;
+            font-size: 18px;
+            
+        }    
+        
+        .progress {
+            margin: 0px 30px 20px 30px;
+        }
+
+        .submit-button {
+            display: flex;
+            justify-content: center;
+        }
+    
+            .submit-button .btn {
+                font-size: 18px;
+                margin-top: 10px;
+                width: 120px;
+            }
+    
+
+

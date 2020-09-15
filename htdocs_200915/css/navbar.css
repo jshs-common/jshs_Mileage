@@ -1,0 +1,44 @@
+﻿.navbar {
+    background-color: #000000;
+    font-family: NanumSquareR;
+    height: 50px !important;
+}
+    .navbar .navbar-brand {
+        font-family: 'BM DoHyeon';
+        font-weight: 400;
+        font-size: 24px;
+        border: solid;
+        border-width: 2px 0px 0px 0px !important;
+        border-color: transparent;
+        color: white !important;
+    }
+
+    .navbar .navbar-right a {
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    
+    .navbar .container .navbar-collapse {
+        background-color: #303030;
+    }
+
+    @media (min-width: 1200px)
+    {
+        .navbar .container .navbar-collapse {
+            background-color: transparent !important;
+        }
+        .navbar .navbar-right a:hover {
+            color: white !important;
+            height: 50px;
+            border: solid;
+            border-width: 0px 0px 2px 0px;
+            border-top: 2px !important;
+            border-color: #4583FE !important;
+        }
+    }
+
+
+.btn-change-pw:hover {
+    cursor: pointer;
+}
+        

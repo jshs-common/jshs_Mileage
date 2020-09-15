@@ -1,0 +1,144 @@
+input[type='checkbox']{
+                width: 3em !important;
+                height: 3em !important;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                -o-appearance: none;
+                appearance:none;
+                outline: none;
+                box-shadow: none;
+            }
+
+            input[type='checkbox']:checked{
+                width: 3em !important;
+                height: 3em !important;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                -o-appearance: none;
+                appearance:none;
+                box-shadow: none;
+                -moz-transition:background .30s ease;   
+                -o-transition:background .30s ease;   
+                -ms-transition:background .30s ease;   
+                -webkit-transition:background .30s ease;   
+            }
+            #p10{
+                background: url("../img/10level.png") center/3em no-repeat;
+            }
+            #p9{
+                background: url("../img/9level.png") center/3em no-repeat;
+            }
+            #p8{
+                background: url("../img/8level.png") center/3em no-repeat;
+            }
+            #p7{
+                background: url("../img/7level.png") center/3em no-repeat;
+            }
+            #p6{
+                background: url("../img/6level.png") center/3em no-repeat;
+            }
+            #p5{
+                background: url("../img/5level.png") center/3em no-repeat;
+            }
+            #p4{
+                background: url("../img/4level.png") center/3em no-repeat;
+            }
+            #p3{
+                background: url("../img/3level.png") center/3em no-repeat;
+            }
+            #p2{
+                background: url("../img/2level.png") center/3em no-repeat;
+            }
+            #p1{
+                background: url("../img/1level.png") center/3em no-repeat;
+            }
+            #m10{
+                background: url("../img/10levelm.png") center/3em no-repeat;
+            }
+            #m9{
+                background: url("../img/9levelm.png") center/3em no-repeat;
+            }
+            #m8{
+                background: url("../img/8levelm.png") center/3em no-repeat;
+            }
+            #m7{
+                background: url("../img/7levelm.png") center/3em no-repeat;
+            }
+            #m6{
+                background: url("../img/6levelm.png") center/3em no-repeat;
+            }
+            #m5{
+                background: url("../img/5levelm.png") center/3em no-repeat;
+            }
+            #m4{
+                background: url("../img/4levelm.png") center/3em no-repeat;
+            }
+            #m3{
+                background: url("../img/3levelm.png") center/3em no-repeat;
+            }
+            #m2{
+                background: url("../img/2levelm.png") center/3em no-repeat;
+            }
+            #m1{
+                background: url("../img/1levelm.png") center/3em no-repeat;
+            }
+            #p10:checked{
+                background: url("../img/10level-checked.png") center/3em no-repeat;
+            }
+            #p9:checked{
+                background: url("../img/9level-checked.png") center/3em no-repeat;
+            }
+            #p8:checked{
+                background: url("../img/8level-checked.png") center/3em no-repeat;
+            }
+            #p7:checked{
+                background: url("../img/7level-checked.png") center/3em no-repeat;
+            }
+            #p6:checked{
+                background: url("../img/6level-checked.png") center/3em no-repeat;
+            }
+            #p5:checked{
+                background: url("../img/5level-checked.png") center/3em no-repeat;
+            }
+            #p4:checked{
+                background: url("../img/4level-checked.png") center/3em no-repeat;
+            }           
+            #p3:checked{
+                background: url("../img/3level-checked.png") center/3em no-repeat;
+            }
+            #p2:checked{
+                background: url("../img/2level-checked.png") center/3em no-repeat;
+            }
+            #p1:checked{
+                background: url("../img/1level-checked.png") center/3em no-repeat;
+            }
+            #m10:checked{
+                background: url("../img/10levelm-checked.png") center/3em no-repeat;
+            }
+            #m9:checked{
+                background: url("../img/9levelm-checked.png") center/3em no-repeat;
+            }
+            #m8:checked{
+                background: url("../img/8levelm-checked.png") center/3em no-repeat;
+            }
+            #m7:checked{
+                background: url("../img/7levelm-checked.png") center/3em no-repeat;
+            }
+            #m6:checked{
+                background: url("../img/6levelm-checked.png") center/3em no-repeat;
+            }
+            #m5:checked{
+                background: url("../img/5levelm-checked.png") center/3em no-repeat;
+            }
+            #m4:checked{
+                background: url("../img/4levelm-checked.png") center/3em no-repeat;
+            }           
+            #m3:checked{
+                background: url("../img/3levelm-checked.png") center/3em no-repeat;
+            }
+            #m2:checked{
+                background: url("../img/2levelm-checked.png") center/3em no-repeat;
+            }
+            #m1:checked{
+                background: url("../img/1levelm-checked.png") center/3em no-repeat;
+            }
